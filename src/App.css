@@ -1,0 +1,102 @@
+.nav-ul {
+  margin: 0;
+  padding:5px;
+  background-color: slategrey;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  color:white;
+  padding: 5px;
+  text-decoration: none;
+}
+.register{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.inputBox{
+  margin-bottom: 10px;
+  margin-top: 15px;
+  border:1px solid slategray;
+  width: 300px;
+  padding:10px;
+  
+}
+.btn{
+  width:120px;
+  height:50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: slategray;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -10px;
+  margin-left: 5px;
+  font-family: monospace;
+  font-style: italic;
+}
+
+ul li .del-btn{
+ margin-right: 100px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  border: 1px solid skyblue;
+  padding: 5px;
+}
+
+.product-list ul{
+  margin: 0;
+}
+
+.search-product-box {
+  width: 400px;
+  margin: 20px;
+  height: 38px;
+  padding-left: 30px;
+  border: solid 1px skyblue;
+}
+.footer{
+  position: absolute;
+  bottom: -20px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: slategrey;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
